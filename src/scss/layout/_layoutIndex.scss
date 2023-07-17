@@ -1,0 +1,55 @@
+@use '../abstracts/abstractsIndex' as *;
+
+body {
+  background: $veryLightGray;
+}
+
+.comments {
+  &__details {
+  }
+
+  &__content {
+  }
+  &__add-comment-form {
+  }
+  &__text-area {
+  }
+  &__submit-btn {
+  }
+}
+
+.vote {
+  &__btn {
+  }
+
+  &__counter {
+  }
+}
+
+.user {
+  &__profile_container {
+  }
+  &__picture {
+  }
+  &__name {
+  }
+  &__date-posted {
+  }
+}
+
+.comment-update {
+  &__delete_update_container {
+  }
+  &__reply {
+  }
+  &__button {
+  }
+  &__button--delete {
+  }
+  &__button--edit {
+  }
+}
+
+.hidden {
+  display: none;
+}

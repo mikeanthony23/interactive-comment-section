@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Comment Section </title>
+</head>
+
+<body>
+
+  <main>
+    <section class="comments">
+
+      <article class="comments__details">
+
+        <div class="vote">
+          <button class="vote__btn vote--increment">&plus;</button>
+          <mark class="vote__counter">12</mark>
+          <button class="vote__btn vote--decrement">&minus;</button>
+        </div>
+
+        <header class="user">
+          <figure class="user__profile_container">
+            <img class="user__picture" src="" alt="">
+            <figcaption class="user__name"></figcaption>
+            <mark class="user__date-posted"></mark>
+          </figure>
+
+          <div class="comment-update">
+            <div class="hidden comment-update__delete_update_container">
+              <button class="comment-update__button comment-update__button--delete">Delete</button>
+              <button class="comment-update__button comment-update-button--edit">Edit</button>
+            </div>
+            <button class="comment-update__button__reply">Reply</button>
+          </div>
+        </header>
+
+        <article class="comment__content">
+
+        </article>
+
+        <form class="comment__add-comment-form" action="">
+          <textarea class="comment__text-area" name="" id="" cols="30" rows="10"></textarea>
+          <button class="comment__submit-btn">Send</button>
+        </form>
+
+
+      </article>
+
+
+
+    </section>
+  </main>
+
+</body>
+
+</html>
