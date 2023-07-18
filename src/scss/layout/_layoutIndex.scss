@@ -2,23 +2,36 @@
 
 body {
   background: $veryLightGray;
+  font-family: $bodyFont;
+  font-size: $bodyFontSize;
+}
+
+mark {
+  color: inherit;
+  background: inherit;
+}
+
+main {
+  padding: 100px 0;
 }
 
 .comments {
-  &__details {
-  }
-
-  &__content {
-  }
-  &__add-comment-form {
-  }
-  &__text-area {
-  }
-  &__submit-btn {
-  }
+  background: #fff;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 50px 20px 50px 50px;
+  position: relative;
 }
 
 .vote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
   &__btn {
   }
 
@@ -37,16 +50,31 @@ body {
   }
 }
 
-.comment-update {
+.update_comment {
   &__delete_update_container {
   }
   &__reply {
   }
   &__button {
   }
+  &__button--reply {
+  }
   &__button--delete {
   }
   &__button--edit {
+  }
+}
+
+.add-comment {
+  &__user {
+  }
+  &__picture {
+  }
+  &__form {
+  }
+  &__text-area {
+  }
+  &__submit-btn {
   }
 }
 
